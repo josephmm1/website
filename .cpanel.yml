@@ -9,5 +9,4 @@ deployment:
     - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
     # Copy files from the repo main file
     -  /bin/cp -R ${REPOPATH} ${DEPLOYPATH}
-    # Delete the .git file from the deploy path
-    -  /bin/rm -Rf ${DEPLOYPATH}/.git
+
