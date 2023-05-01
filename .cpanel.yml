@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dvm33ugq28ol/public_html/
-    - /main index.html $DEPLOYPATH
+    - /website/main index.html $DEPLOYPATH
