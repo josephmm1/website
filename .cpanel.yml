@@ -3,10 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dvm33ugq28ol/public_html/
     - export REPOPATH=/home/dvm33ugq28ol/repositories/website/main/
-    # Remove previous old files, if any.
-#    - /bin/rm -Rf ${DEPLOYPATH}
-    # Copy old site files to another directory.
-#    - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
-    # Copy files from the repo main file
+    # copy repo files into the deploy path
     - /bin/cp -R ${REPOPATH}* ${DEPLOYPATH}
 
