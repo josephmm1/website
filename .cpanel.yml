@@ -8,5 +8,5 @@ deployment:
     # Copy old site files to another directory.
 #    - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
     # Copy files from the repo main file
-    - /bin/cp -R ${REPOPATH} ${DEPLOYPATH}
+    - /bin/cp -R ${REPOPATH}* ${DEPLOYPATH}
 
