@@ -9,7 +9,9 @@
         <div class="spaceDiv">
         </div>
         <div class="center border" >
-            <object type="text/html" data="blogPosts/devBlog1.html"></object>
+         <?php
+                    include("blogPosts/devBlog1.html");
+         ?>
         </div>
         <div class="spaceDiv">
         </div>
