@@ -10,7 +10,7 @@
         </div>
         <div class="center border" >
          <?php
-                    include("blogPosts/devBlog1.html");
+                    include("blogPosts/devBlog1.php");
          ?>
         </div>
         <div class="spaceDiv">
