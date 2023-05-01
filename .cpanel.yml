@@ -7,10 +7,7 @@ deployment:
     - /bin/rm -Rf ${DEPLOYPATH}_old
     # Copy old site files to another directory.
     - /bin/cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
-    # Sync repository files to the deploy target path, excluding .git folder.
-    # --delete-after will remove deleted files and folders after syncing.
-    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
-    # Set correct permissions.
-    - /bin/chmod 755 ${DEPLOYPATH}
-    - /bin/find ${DEPLOYPATH} -type d -exec /bin/chmod 755 '{}' \;
-    - /bin/find ${DEPLOYPATH} -type f -exec /bin/chmod 644 '{}' \;
+    # Copy files from the repo main file
+    -  /bin/cp -R ${REPOPATH} ${DEPLOYPATH}
+    # Delete the .git file from the deploy path
+    -  /bin/rm -Rf ${DEPLOYPATH}/.git
