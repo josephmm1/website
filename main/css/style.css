@@ -1,7 +1,34 @@
 body {
   background-color: lightblue;
 }
-
-p {
-colour: red;
+.border{
+border-radius: 10px;
+  padding: 10px;
+}
+.spaceDiv{
+height: 70px
+}
+.center {
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  text-align: center;
+  background-color: white;
+}
+.footer {
+background-color: white;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   margin:auto
+}
+.header {
+ left: 0;
+ top: 0;
+background-color: white;
+   position: fixed;
+   width: 100%;
+   text-align: center;
 }
