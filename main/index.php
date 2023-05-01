@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <body>

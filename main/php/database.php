@@ -1,4 +1,5 @@
 <?php
+echo "php data ";
 
 $serverName = "localhost";
 $username = "codeconjurer";
@@ -9,7 +10,7 @@ $connection = mysqli_connect($serverName,$username,$pass,$dbName);
 
 if ($connection)
 {
- echo "<p>DB connected</p>";
+echo "<p>DB connected</p>";
 }
 else
 {
