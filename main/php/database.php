@@ -2,11 +2,13 @@
 
 $serverName = "localhost";
 $username = "codeconjurer";
-$pass = "";
-$dbName = "postDatabase_0392"
+$pass = "temp";
+$dbName = "postDatabase_0392";
 
 $connection = mysqli_connect($serverName,$username,$pass,$dbName);
-if($connection){
+
+if ($connection)
+{
  echo "<p>DB connected</p>";
 }
 else
