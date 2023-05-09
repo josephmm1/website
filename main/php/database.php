@@ -7,7 +7,6 @@ $connection = mysqli_connect("localhost",$config['username'],$config['pass'],$co
 $postQuery = "SELECT * FROM Posts";
 $post = $connection->query($postQuery);
 if ($connection){
-    echo "<p>DB connected</p>";
     if (mysqli_num_rows($post) > 0) {
         while($row = mysqli_fetch_assoc($post)) {
         echo "<h3>".$row["title"]."</h3>";
@@ -15,7 +14,8 @@ if ($connection){
         echo "<p>posted at: ".$row["timestamp"]."</p>";
         }
     } else {
-    echo "0 results";
+    echo "<p>posts not found</p>"
+//     stub page here
     }
 }
 else{
