@@ -10,9 +10,9 @@ if ($connection){
     echo "<p>DB connected</p>";
     if (mysqli_num_rows($post) > 0) {
         while($row = mysqli_fetch_assoc($post)) {
-        echo "<h3>".$row["title"]."</h3>"
-        echo "<p>".$row["content"]."</p>"
-        echo "<p>posted at: ".$row["timestamp"]."</p>"
+        echo "<h3>".$row["title"]."</h3>";
+        echo "<p>".$row["content"]."</p>";
+        echo "<p>posted at: ".$row["timestamp"]."</p>";
         }
     } else {
     echo "0 results";
