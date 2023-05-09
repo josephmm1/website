@@ -8,14 +8,17 @@ $postAmount = $connection->query($postAmountQuery);
 
 $postQuery = "SELECT * FROM Posts";
 $post = $connection->query($postQuery);
-if ($connection)
-{
-echo "<p>DB connected</p>";
-echo "<p>we have {$postAmount} posts</p>";
-echo "<p>{$post}</p>";
+if ($connection){
+    echo "<p>DB connected</p>";
+    if (mysqli_num_rows($post) > 0) {
+        while($row = mysqli_fetch_assoc($post)) {
+            echo "id: " . $row["id"]. " - title: " . $row["title"]. " - content: " . $row["content"]. " - timestamp".$row["timestamp"]."<br>";
+        }
+    } else {
+    echo "0 results";
+    }
 }
-else
-{
+else{
 echo "<p>DB not connected</p>";
 }
 ?>
