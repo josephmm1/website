@@ -14,7 +14,7 @@ if ($connection){
         echo "<p>posted at: ".$row["timestamp"]."</p>";
         }
     } else {
-    echo "<p>posts not found</p>"
+    echo "<p>posts not found</p>";
 //     stub page here
     }
 }
