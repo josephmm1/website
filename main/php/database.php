@@ -1,5 +1,4 @@
 <?php
-echo "php data ";
 
 $config = parse_ini_file('/home/dvm33ugq28ol/config/config.ini');
 
@@ -12,8 +11,8 @@ $post = $connection->query($postQuery);
 if ($connection)
 {
 echo "<p>DB connected</p>";
-echo "<p>we have $postAmount posts</p>";
-echo "<p>$post</p>";
+echo "<p>we have {$postAmount} posts</p>";
+echo "<p>{$post}</p>";
 }
 else
 {
