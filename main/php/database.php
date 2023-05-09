@@ -1,12 +1,9 @@
 <?php
 echo "php data ";
 
-$serverName = "localhost";
-$username = "codeconjurer";
-$pass = "temp";
-$dbName = "postDatabase_0392";
+$config = parse_ini_file('/home/dvm33ugq28ol/config/config.ini');
 
-$connection = mysqli_connect($serverName,$username,$pass,$dbName);
+$connection = mysqli_connect("localhost",$config['username'],$config['pass'],$config['dbName']);
 
 if ($connection)
 {
