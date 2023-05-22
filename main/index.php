@@ -4,15 +4,7 @@
     <script src="js/script.js"></script>
     <body>
         <div class="header" id="myHeader">
-            <div class="navigation">
-                <nav>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Page 3?</a></li>
-                    </ul>
-                </nav>
-            </div>
+                <p>navigation coming soon!</p>
         </div>
         <div class="spaceDiv">
         </div>
