@@ -8,11 +8,9 @@
         </div>
         <div class="spaceDiv">
         </div>
-        <div class="center border" >
-         <?php
-                    include("blogPosts/devBlog1.php");
-         ?>
-        </div>
+            <?php
+                include("blogPosts/devBlog1.php");
+            ?>
         <div class="spaceDiv">
         </div>
         <div class="footer">
