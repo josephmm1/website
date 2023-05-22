@@ -8,11 +8,11 @@ $post = $connection->query($postQuery);
 if ($connection){
     if (mysqli_num_rows($post) > 0) {
         while($row = mysqli_fetch_assoc($post)) {
-        echo "<div class="center border">"
+        echo "<div class="center border">";
         echo "<h3>".$row["title"]."</h3>";
         echo "<p>".$row["content"]."</p>";
         echo "<p>posted at: ".$row["timestamp"]."</p>";
-        echo "</div>"
+        echo "</div>";
         }
     } else {
     echo "<p>posts not found</p>";
