@@ -8,9 +8,11 @@
         </div>
         <div class="spaceDiv">
         </div>
+        <div>
              <?php
                 include("php/database.php");
              ?>
+        </div>
         <div class="spaceDiv">
         </div>
         <div class="footer">
