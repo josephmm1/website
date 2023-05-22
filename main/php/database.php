@@ -13,6 +13,7 @@ if ($connection){
         echo "<p>".$row["content"]."</p>";
         echo "<p>posted at: ".$row["timestamp"]."</p>";
         echo "</div>";
+        echo "<div class='spaceDiv'></div>";
         }
     } else {
     echo "<p>posts not found</p>";
