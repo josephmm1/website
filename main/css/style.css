@@ -31,3 +31,8 @@ body {
  width: 100%;
  text-align: center;
 }
+.codeSnippet{
+ border-radius: 10px;
+ background-color: #2B2B2B;
+ text-color: white;
+}
