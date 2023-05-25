@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.3">
+    <link rel="stylesheet" href="/css/style.css?ver=1.0.4">
     <script src="js/script.js"></script>
     <body>
         <div class="header" id="myHeader">

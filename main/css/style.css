@@ -11,7 +11,7 @@ body {
 .center {
  margin: auto;
  width: 90%;
- text-align: center;
+
  background-color: white;
 }
 .footer {
@@ -34,5 +34,10 @@ body {
 .codeSnippet{
  border-radius: 10px;
  background-color: #2B2B2B;
- text-color: white;
+ color: white;
+ padding: 10px;
+ width: max-content;
+}
+h3{
+text-align: center;
 }
