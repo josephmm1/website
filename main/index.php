@@ -9,7 +9,6 @@
                 <li>Apps</li>
                 <li>About</li>
             </ul>
-                <p>navigation coming soon!</p>
         </div>
         <div class="spaceDiv">
         </div>
