@@ -42,6 +42,7 @@ h3{
 }
 .navigation{
     display: flex;
+    list-style-type: none;
 }
 .flex{
     display: flex;
