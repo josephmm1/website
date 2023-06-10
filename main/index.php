@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/style.css?ver=1.1.0">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.1">
     <script src="js/script.js"></script>
     <body>
         <div class="header flex" id="myHeader">
+        <div>This is a logo WIP</div>
             <ul class="navigation">
-                <li class="navItem">Questions</li>
-                <li class="navItem">Apps</li>
-                <li class="navItem">About</li>
+                <li class="navItem">
+                    <div>Questions
+                    </div>
+                </li>
+                <li class="navItem">
+                    <div>Apps
+                    </div>
+                </li>
+                <li class="navItem">
+                    <div>About
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="spaceDiv">

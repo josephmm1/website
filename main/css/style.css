@@ -46,6 +46,6 @@ h3{
 .flex{
     display: flex;
 }
-.navitem{
-    color=red;
+.navItem{
+    padding=10px;
 }
