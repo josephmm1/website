@@ -1,43 +1,45 @@
 body {
- background-color: #737c93;
+    background-color: #737c93;
 }
 .border{
- border-radius: 10px;
- padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 .spaceDiv{
- height: 70px
+    height: 70px
 }
 .center {
- margin: auto;
- width: 90%;
-
- background-color: white;
+    margin: auto;
+    width: 90%;
+    background-color: white;
 }
 .footer {
- background-color: white;
- position: fixed;
- left: 0;
- bottom: 0;
- width: 100%;
- text-align: center;
- margin:auto
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin:auto
 }
 .header {
- left: 0;
- top: 0;
- background-color: white;
- position: fixed;
- width: 100%;
- text-align: center;
+    left: 0;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
 .codeSnippet{
- border-radius: 10px;
- background-color: #2B2B2B;
- color: white;
- padding: 10px;
- width: max-content;
+    border-radius: 10px;
+    background-color: #2B2B2B;
+    color: white;
+    padding: 10px;
+    width: max-content;
 }
 h3{
-text-align: center;
+    text-align: center;
+}
+.navigation{
+    display: flex;
 }
