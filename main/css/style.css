@@ -43,3 +43,9 @@ h3{
 .navigation{
     display: flex;
 }
+.flex{
+    display: flex;
+}
+.navitem{
+    color=red;
+}

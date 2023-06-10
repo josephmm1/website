@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.5">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.0">
     <script src="js/script.js"></script>
     <body>
-        <div class="header" id="myHeader">
+        <div class="header flex" id="myHeader">
             <ul class="navigation">
-                <li>Questions</li>
-                <li>Apps</li>
-                <li>About</li>
+                <li class="navItem">Questions</li>
+                <li class="navItem">Apps</li>
+                <li class="navItem">About</li>
             </ul>
         </div>
         <div class="spaceDiv">
