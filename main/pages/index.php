@@ -22,10 +22,13 @@
         </div>
         <div class="spaceDiv">
         </div>
-        <div>
-            <?
-                include("question.php")
-            ?>
+        <div class='center border'>
+            <form>
+                <input type="text">
+                <input type="submit">
+            </form>
+        </div>
+        <div class="spaceDiv">
         </div>
         <div>
              <?
