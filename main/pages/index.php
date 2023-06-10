@@ -22,7 +22,7 @@
         </div>
         <div class="spaceDiv">
         </div>
-        <div class='center border'>
+        <div class="center border">
             <form>
                 <input type="text">
                 <input type="submit">
