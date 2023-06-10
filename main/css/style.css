@@ -46,6 +46,6 @@ h3{
 .flex{
     display: flex;
 }
-.navItem{
-    padding=10px;
+.nav-item{
+    padding: 10px;
 }
