@@ -6,16 +6,16 @@
         <div class="header flex" id="myHeader">
         <div>This is a logo WIP</div>
             <ul class="navigation">
-                <li class="navItem">
-                    <div>Questions
+                <li>
+                    <div class="navItem">Questions
                     </div>
                 </li>
-                <li class="navItem">
-                    <div>Apps
+                <li>
+                    <div class="navItem">Apps
                     </div>
                 </li>
-                <li class="navItem">
-                    <div>About
+                <li>
+                    <div class="navItem">About
                     </div>
                 </li>
             </ul>
