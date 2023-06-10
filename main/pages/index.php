@@ -23,7 +23,12 @@
         <div class="spaceDiv">
         </div>
         <div>
-             <?php
+            <?
+                include("question.php")
+            ?>
+        </div>
+        <div>
+             <?
                 include("php/database.php");
              ?>
         </div>
