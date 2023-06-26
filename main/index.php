@@ -3,9 +3,8 @@
     <link rel="stylesheet" href="/css/style.css?ver=1.1.3">
     <script src="js/script.js"></script>
     <body>
-    <div id="nav-placeholder">
-
-    </div>
+        <div id="navbar-placeholder">
+        </div>
         <div class="spaceDiv">
         </div>
         <div class="center border">
