@@ -6,6 +6,8 @@
 <body>
     <div id="navbar-placeholder">
     </div>
+    <div class="spaceDiv">
+    </div>
     <div>
         <p>Project Page<p>
     </div>

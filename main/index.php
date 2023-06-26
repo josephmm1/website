@@ -8,24 +8,7 @@
     </div>
     <div class="spaceDiv">
     </div>
-    <div class="center border">
-        <form>
-            <input type="text">
-            <input type="submit">
-        </form>
-    </div>
-    <div class="spaceDiv">
-    </div>
-    <div>
-         <?
-            include("php/database.php");
-         ?>
-    </div>
-    <div class="spaceDiv">
-    </div>
-    <div class="footer">
-        <p>some text</p>
-    </div>
+
     <script>
     $(function(){
       $("#navbar-placeholder").load("navigation.html");
