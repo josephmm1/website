@@ -49,6 +49,9 @@ h3{
 }
 .nav-item{
     padding: 10px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 .nav-item:hover{
     background:red
