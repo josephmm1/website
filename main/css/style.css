@@ -41,6 +41,7 @@ h3{
     text-align: center;
 }
 .navigation{
+    padding: 10px;
     display: flex;
     list-style-type: none;
 }
