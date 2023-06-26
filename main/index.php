@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="/css/style.css?ver=1.1.3">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.4">
     <script src="js/script.js"></script>
     <body>
         <div class="header flex" id="myHeader">
@@ -23,7 +23,7 @@
         <div class="spaceDiv">
         </div>
 
-            <iframe src="pages/questions.php" title="description"></iframe>
+            <iframe src="pages/questions.php" title="description" class="frame"></iframe>
 
         <div class="footer">
             <p>some text</p>
