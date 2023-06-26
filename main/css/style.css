@@ -50,6 +50,9 @@ h3{
 .nav-item{
     padding: 10px;
 }
+.nav-item:hover{
+    colour:red
+}
 .frame{
     width:100%;
     border-style: none;

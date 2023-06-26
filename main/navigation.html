@@ -1,4 +1,5 @@
 <div class="header flex" id="myHeader">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.4">
     <div>This is a logo WIP</div>
     <ul class="navigation">
         <li class="nav-item">
@@ -9,7 +10,7 @@
             <div>Projects
             </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" onclick="questionPageNav()">
             <div>About
             </div>
         </li>
@@ -18,6 +19,9 @@
 <button >Replace document</button>
 <script>
 function projectPageNav() {
-  location.replace("pages/projects.php")
+  location.replace("projects.php")
+}
+function questionPageNav() {
+  location.replace("index.php")
 }
 </script>
