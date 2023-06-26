@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="/css/style.css?ver=1.1.4">
     <div>This is a logo WIP</div>
     <ul class="navigation">
-        <li class="nav-item">
+        <li class="nav-item" class="nav-item" onclick="questionPageNav()">
             <div>Questions
             </div>
         </li>
@@ -10,13 +10,12 @@
             <div>Projects
             </div>
         </li>
-        <li class="nav-item" onclick="questionPageNav()">
+        <li>
             <div>About
             </div>
         </li>
     </ul>
 </div>
-<button >Replace document</button>
 <script>
 function projectPageNav() {
   location.replace("projects.php")

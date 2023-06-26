@@ -51,7 +51,7 @@ h3{
     padding: 10px;
 }
 .nav-item:hover{
-    colour:red
+    background:red
 }
 .frame{
     width:100%;
