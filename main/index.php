@@ -28,7 +28,7 @@
         </div>
         <script>
         $(function(){
-          $("#navbar-placeholder").load("pages/navigation.html");
+          $("#navbar-placeholder").load("pages/navigation.html?ver=1.0.0");
         });
         </script>
     </body>
